@@ -5,7 +5,7 @@ return [
         'title' => 'Yönetim Paneli'
     ],
     'field' => [
-        'invalid_type' => 'Geçersiz field tipi :type.',
+        'invalid_type' => 'Geçersiz alan tipi :type.',
         'options_method_not_exists' => ':model Model\'i ":field" formuna geri dönüş için bir :method() metod tanımlamalıdır.'
     ],
     'widget' => [
