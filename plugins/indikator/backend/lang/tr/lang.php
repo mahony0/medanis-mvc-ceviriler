@@ -14,7 +14,7 @@ return [
     'widgets' => [
         'system' => [
             'label' => 'Sistem Durumu',
-            'webpage' => 'Websayfası',
+            'webpage' => 'Web site',
             'updates' => 'Güncellemeler',
             'plugins' => 'Eklentiler',
             'themes' => 'Temalar'
@@ -26,7 +26,7 @@ return [
             'gd' => 'GD'
         ],
         'logs' => [
-            'label' => 'Kayıtlar',
+            'label' => 'Olay Kayıtları',
             'access' => 'Erişim',
             'event' => 'Olay',
             'request' => 'İstek',
@@ -57,6 +57,10 @@ return [
             'label' => 'RSS görüntüleyici',
             'error' => 'URL adresi yanlış veya',
             'refresh' => 'sayfayı yenile'
+        ],
+        'images' => [
+            'label' => 'Rastgele Resim',
+            'error' => 'Bu alana sadece sayı girebilirsiniz.'
         ]
     ],
     'properties' => [
@@ -85,6 +89,25 @@ return [
         'rss_url' => 'http://feeds.bbci.co.uk/news/rss.xml',
         'news' => 'Haber sayısı',
         'date' => 'Tarihi göster',
-        'description' => 'Tanımı göster'
+        'description' => 'Tanımı göster',
+        'category' => 'Kategori',
+        'width' => 'Genişlik',
+        'height' => 'Yükseklik'
+    ],
+    'category' => [
+        'all' => 'Tümü',
+        'abstract' => 'Soyut Resimer',
+        'animals' => 'Hayvanlar',
+        'business' => 'İş',
+        'cats' => 'Kediler',
+        'city' => 'Şehir Yaşamı',
+        'food' => 'Yiyecek &amp; Gıda',
+        'nightlife' => 'Gece Yaşamı',
+        'fashion' => 'Moda',
+        'people' => 'İnsanlar',
+        'nature' => 'Doğa',
+        'sports' => 'Spor',
+        'technics' => 'Teknik',
+        'transport' => 'Taşımacılık'
     ]
 ];

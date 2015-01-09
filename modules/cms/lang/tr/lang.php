@@ -22,8 +22,8 @@ return [
             'not_found' => "Düzenlenecek tema bulunamadı.",
             'not_match' => "Ulaşmaya çalıştığınız nesne düzenlenecek temaya ait değil. Lütfen sayfayı yenileyin."
         ],
-        'settings_menu' => 'Yönetim Paneli teması',
-        'settings_menu_description' => 'Yüklü temalar listesini önizleyin ve bir tema seçip aktifleştirin.',
+        'settings_menu' => 'Temalar',
+        'settings_menu_description' => 'Yüklü temalar listesini önizleyebilir, bir tema seçip aktifleştirebilirsiniz.',
         'find_more_themes' => 'Medanis Tema Marketi\'nden başka tema alabilirsiniz.',
         'activate_button' => 'Aktifleştir',
         'active_button' => 'Aktifleştir',
@@ -31,9 +31,9 @@ return [
     ],
     'maintenance' => [
         'settings_menu' => 'Bakım modu',
-        'settings_menu_description' => 'Bakım modu sayfasını yapılandırın ve ayarları düzenleyin.',
+        'settings_menu_description' => 'Bakım modu ayarlarını düzenleyip bakım sayfasını yapılandırabilirsiniz.',
         'is_enabled' => 'Bakım modunu aktifleştir',
-        'is_enabled_comment' => 'Aktifleştirildiğinde, web sitesi ziyaretçileri aşağıdaki seçilen sayfayı görecektir.'
+        'is_enabled_comment' => 'Aktifleştirildiğinde, web sitesi ziyaretçileri aşağıdaki seçtiğiniz sayfayı görecektir.'
     ],
     'page' => [
         'not_found' => [

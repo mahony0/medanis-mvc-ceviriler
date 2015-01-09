@@ -223,7 +223,7 @@ return [
     ],
     'editor' => [
         'menu_label' => 'Editör ayarları',
-        'menu_description' => 'Editör ayarlarını düzenle.',
+        'menu_description' => 'Metin editörü ayarlarını düzenleyebilirsiniz.',
         'font_size' => 'Font büyüklüğü',
         'tab_size' => 'Tab genişliği',
         'use_hard_tabs' => 'Tab girintisi',
@@ -243,7 +243,7 @@ return [
     ],
     'myaccount' => [
         'menu_label' => 'Kişisel Bilgilerim',
-        'menu_description' => 'Hesabınızın ismi, email adresi ve şifresi gibi bilgilerini düzenleyin.',
+        'menu_description' => 'Hesabınızın ismi, email adresi ve şifresi gibi bilgilerini düzenleyebilirsiniz.',
         'menu_keywords' => 'güvenli oturum açma'
     ],
     'branding' => [

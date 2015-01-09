@@ -7,7 +7,7 @@ return [
     ],
     'settings' => [
         'label' => 'Wysiwyg Editörleri',
-        'description' => 'Wysiwyg Editör Tercihlerini Yapılandırın.'
+        'description' => 'Wysiwyg editör tercihlerini bu bölümden yapılandırabilirsiniz.'
     ],
     'widget' => [
         'label' => 'Wysiwyg',
