@@ -2,61 +2,61 @@
 
 return [
     'plugin' => [
-        'name' => 'Backend Plus',
-        'description' => 'New features and widgets for backend.',
-        'author' => 'Gergő Szabó'
+        'name' => 'Widget Modülü',
+        'description' => 'Arkaplan için yeni özellikler ve widgetler.',
+        'author' => 'Medanis Bilişim'
     ],
     'settings' => [
-        'sidebar_description' => 'Hide descriptions in slidebar.',
-        'focus_searchfield' => 'Focus search field automatically.',
-        'comment' => 'It only works on Settings pages.'
+        'sidebar_description' => 'Sol kısayol bloğunda açıklamaları gizle.',
+        'focus_searchfield' => 'Otomatik olarak arama alanına odaklan.',
+        'comment' => 'Sadece Ayarlar sayfalarında çalışır.'
     ],
     'widgets' => [
         'system' => [
-            'label' => 'System status plus',
-            'webpage' => 'Webpage',
-            'updates' => 'Updates',
-            'plugins' => 'Plugins',
-            'themes' => 'Themes'
+            'label' => 'Sistem Durumu',
+            'webpage' => 'Websayfası',
+            'updates' => 'Güncellemeler',
+            'plugins' => 'Eklentiler',
+            'themes' => 'Temalar'
         ],
         'version' => [
-            'label' => 'Versions',
+            'label' => 'Versiyonlar',
             'cms' => 'CMS',
             'php' => 'PHP',
             'gd' => 'GD'
         ],
         'logs' => [
-            'label' => 'Logs',
-            'access' => 'Access',
-            'event' => 'Event',
-            'request' => 'Request',
-            'total' => 'Total'
+            'label' => 'Kayıtlar',
+            'access' => 'Erişim',
+            'event' => 'Olay',
+            'request' => 'İstek',
+            'total' => 'Toplam'
         ],
         'admins' => [
-            'label' => 'Administrators',
-            'users' => 'Users',
-            'groups' => 'Groups',
-            'login' => 'Last login'
+            'label' => 'Yöneticiler',
+            'users' => 'Kullanıcılar',
+            'groups' => 'Gruplar',
+            'login' => 'Son giriş'
         ],
         'logins' => [
-            'label' => 'Last logins'
+            'label' => 'Son girişler'
         ],
         'server' => [
-            'label' => 'Server info',
-            'host' => 'Host',
-            'ip' => 'IP address',
-            'os' => 'Operation system'
+            'label' => 'Server bilgisi',
+            'host' => 'Sunucu',
+            'ip' => 'IP adresi',
+            'os' => 'İşletim sistemi'
         ],
         'php' => [
-            'label' => 'PHP settings',
-            'upload_limit' => 'Upload limit',
-            'memory_limit' => 'Memory limit',
-            'timezone' => 'Timezone'
+            'label' => 'PHP ayarları',
+            'upload_limit' => 'Yükleme limiti',
+            'memory_limit' => 'Hafıza limiti',
+            'timezone' => 'Zaman dilimi'
         ],
         'rss' => [
-            'label' => 'RSS viewer',
-            'error' => 'The URL address is incorrect or',
-            'refresh' => 'refresh page'
+            'label' => 'RSS görüntüleyici',
+            'error' => 'URL adresi yanlış veya',
+            'refresh' => 'sayfayı yenile'
         ]
     ],
     'properties' => [
@@ -67,24 +67,24 @@ return [
         'cms' => 'CSMS Versiyonunu Göster',
         'php' => 'PHP Versiyonunu Göster',
         'gd' => 'GD Versiyonunu Göster',
-        'access' => 'Show access',
-        'event' => 'Show event',
-        'request' => 'Show request',
-        'total' => 'Show total',
+        'access' => 'Girişleri göster',
+        'event' => 'Olayı göster',
+        'request' => 'İsteği göster',
+        'total' => 'Toplamı göster',
         'users' => 'Kullanıcıları göster',
         'groups' => 'Grupları göster',
         'login' => 'Son girişi göster',
         'logins' => 'Giriş sayısını göster',
         'url' => 'URL adresini göster',
         'ip' => 'IP Adresini göster',
-        'os' => 'Show operation system',
-        'upload_limit' => 'Show upload limit',
-        'memory_limit' => 'Show memory limit',
-        'timezone' => 'Show timezone',
-        'rss_title' => 'RSS url',
+        'os' => 'İşletim sistemini göster',
+        'upload_limit' => 'Dosya yükleme boyutu limitini göster',
+        'memory_limit' => 'Hafıza limitini göster',
+        'timezone' => 'Zaman dilimini göster',
+        'rss_title' => 'RSS Adresi',
         'rss_url' => 'http://feeds.bbci.co.uk/news/rss.xml',
-        'news' => 'Number of news',
-        'date' => 'Show date',
-        'description' => 'Show description'
+        'news' => 'Haber sayısı',
+        'date' => 'Tarihi göster',
+        'description' => 'Tanımı göster'
     ]
 ];

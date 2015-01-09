@@ -68,7 +68,7 @@ return [
         'menu_label' => 'Bölümler',
         'unsaved_label' => 'Kaydedilmemiş bölüm(ler)',
         'no_list_records' => 'Bölüm bulunamadı.',
-        'delete_confirm_multiple' => 'Seçili bölümleri silmek istediğinize gerçekten emin misiniz?',
+        'delete_confirm_multiple' => 'Seçili bölümleri silmek istediğinize emin misiniz?',
         'delete_confirm_single' => 'Bu bölümü silmek istediğinize emin misiniz?',
         'new' => 'Bölüm Oluştur'
     ],
@@ -77,7 +77,7 @@ return [
         'menu_label' => 'İçerik',
         'unsaved_label' => 'Kaydedilmemiş içerik',
         'no_list_records' => 'İçerik dosyası bulunamadı.',
-        'delete_confirm_multiple' => 'Seçili içerik dosyaları veya klasörlerini silmek istediğinize gerçekten emin misiniz?',
+        'delete_confirm_multiple' => 'Seçili içerik dosyaları veya klasörlerini silmek istediğinize emin misiniz?',
         'delete_confirm_single' => 'Bu içerik dosyasını silmek istediğinize emin misiniz?',
         'new' => 'Yeni İçerik'
     ],

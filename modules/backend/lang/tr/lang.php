@@ -5,7 +5,7 @@ return [
         'title' => 'Yönetim Paneli'
     ],
     'field' => [
-        'invalid_type' => 'Geçersiz alan tipi :type.',
+        'invalid_type' => 'Geçersiz field tipi :type.',
         'options_method_not_exists' => ':model Model\'i ":field" formuna geri dönüş için bir :method() metod tanımlamalıdır.'
     ],
     'widget' => [
@@ -47,7 +47,7 @@ return [
         'ok' => 'Tamam'
     ],
     'dashboard' => [
-        'menu_label' => 'Pano',
+        'menu_label' => 'Anasayfa',
         'widget_label' => 'Eklenti',
         'widget_width' => 'Genişlik',
         'full_width' => 'tam genişlik',
@@ -90,7 +90,7 @@ return [
         'superuser_comment' => "Kullanıcıya her alanda yetki vermek için burayı işaretleyin.",
         'send_invite' => 'Email ile davet gönder',
         'send_invite_comment' => 'Kullanıcının email adresine davet göndermek için burayı işaretleyin',
-        'delete_confirm' => 'Bu yöneticiyi gerçekten silmek istiyor musunuz?',
+        'delete_confirm' => 'Bu yöneticiyi silmek istiyor musunuz?',
         'return' => 'Yöneticiler listesine dön',
         'allow' => 'Yetki Var',
         'inherit' => 'Grup Yetkisi',
@@ -101,7 +101,7 @@ return [
             'menu_label' => 'Gruplar',
             'list_title' => 'Grupları Yönet',
             'new' => 'Yeni Yönetici Grubu',
-            'delete_confirm' => 'Bu yönetici grubunu gerçekten silmek istiyor musunuz?',
+            'delete_confirm' => 'Bu yönetici grubunu silmek istiyor musunuz?',
             'return' => 'Grup listesine dön',
             'description_field' => 'Adı',
             'is_new_user_default_field' => 'Yeni kullanıcılar bu gruba dahil edilsin mi?',
@@ -172,7 +172,7 @@ return [
         'ok' => 'Tamam',
         'or' => 'veya',
         'reset_default' => "Ön Tanımlı Ayarlara Dön!",
-        'confirm_tab_close' => 'Bu sekmeyi kapatmak istediğinize gerçekten emin misiniz? Kaydedilmemiş değişiklikleri kaybedeceksiniz.',
+        'confirm_tab_close' => 'Bu sekmeyi kapatmak istediğinize emin misiniz? Kaydedilmemiş değişiklikleri kaybedeceksiniz.',
         'behavior_not_ready' => 'Form oluşturulamadı, controller da initForm() metodunu kontrol edin.',
         'preview_no_files_message' => 'Dosyalar yüklenmedi',
         'select' => 'Seç',
