@@ -86,7 +86,7 @@ return [
         'not_found' => "':name' isimli AJAX işleyici bulunamadı.",
     ],
     'cms' => [
-        'menu_label' => "CMS"
+        'menu_label' => "Tasarım Ayarları"
     ],
     'sidebar' => [
         'add' => 'Ekle',

@@ -3,7 +3,7 @@
 return [
     'app' => [
         'name' => 'October CMS',
-        'tagline' => 'Basitliğe dönüş...',
+        'tagline' => 'Basitliğe dönüş...'
     ],
     'locale' => [
         'en' => 'English (United States)',
@@ -20,16 +20,16 @@ return [
         'ro' => 'Română (România)',
         'ru' => 'Русский (Россия - Russia)',
         'se' => 'Svenska (Sverige)',
-        'tr' => 'Türkçe (Türkiye)',
+        'tr' => 'Türkçe (Türkiye)'
     ],
     'directory' => [
-        'create_fail' => "Klasör oluşturulamıyor: :name",
+        'create_fail' => "Klasör oluşturulamıyor: :name"
     ],
     'file' => [
-        'create_fail' => "Dosya oluşturulamıyor: :name",
+        'create_fail' => "Dosya oluşturulamıyor: :name"
     ],
     'combiner' => [
-        'not_found' => "Kombine dosyası: ':name' bulunamadı.",
+        'not_found' => "Kombine dosyası: ':name' bulunamadı."
     ],
     'system' => [
         'name' => 'Sistem',
@@ -46,15 +46,15 @@ return [
             'social' => 'Sosyal',
             'events' => 'Olaylar',
             'customers' => 'Müşteriler',
-            'my_settings' => 'Ayarlarım',
-        ],
+            'my_settings' => 'Ayarlarım'
+        ]
     ],
     'plugin' => [
         'unnamed' => 'İsimsiz eklenti',
         'name' => [
             'label' => 'Eklenti Adı',
-            'help' => 'Eklenti adı eşsiz olmalıdır. Örneğin, RainLab.Blog',
-        ],
+            'help' => 'Eklenti adı eşsiz olmalıdır. Örneğin, RainLab.Blog'
+        ]
     ],
     'plugins' => [
         'manage' => 'Eklentileri yönet',
@@ -72,7 +72,7 @@ return [
         'disable_confirm' => 'Are you sure?',
         'disable_success' => 'Eklentiler başarıyla pasifleştirildi.',
         'enable_success' => 'Eklentiler başarıyla aktifleştirildi.',
-        'unknown_plugin' => 'Eklenti sistemden başarıyla kaldırıldı.',
+        'unknown_plugin' => 'Eklenti sistemden başarıyla kaldırıldı.'
     ],
     'project' => [
         'name' => 'Proje',
@@ -86,7 +86,7 @@ return [
             'missing' => 'Lütfen kullanılacak Proje ID\'sini belirleyin.',
         ],
         'detach_confirm' => 'Bu projeyi ayırmak istediğinizden emin misiniz?',
-        'unbind_success' => 'Proje ayırma işlemi tamamlandı.',
+        'unbind_success' => 'Proje ayırma işlemi tamamlandı.'
     ],
     'settings' => [
         'menu_label' => 'Ayarlar',
@@ -121,7 +121,7 @@ return [
         'mailgun_domain' => 'Mailgun Domain',
         'mailgun_domain_comment' => 'Mailgun domain belirtin.',
         'mailgun_secret' => 'Mailgun Gizli Anahtarı',
-        'mailgun_domain_secret' => 'Mailgun API anahtarını girin.',
+        'mailgun_domain_secret' => 'Mailgun API anahtarını girin.'
     ],
     'mail_templates' => [
         'menu_label' => 'Mail şablonları',
@@ -152,7 +152,7 @@ return [
         'plugin_label' => 'Eklenti Yükle',
         'missing_plugin_name' => 'Yüklemek istediğiniz eklentinin adını giriniz.',
         'install_completing' => 'Kurulumu tamamla',
-        'install_success' => 'Eklenti kurulumu tamamlandı.',
+        'install_success' => 'Eklenti kurulumu tamamlandı.'
     ],
     'updates' => [
         'title' => 'Güncellemeleri Yönet',
@@ -171,6 +171,7 @@ return [
         'core_build_new_help' => 'Son versiyon kullanılabilir.',
         'core_downloading' => 'Uygulama dosyaları indiriliyor',
         'core_extracting' => 'Uygulama dosyaları çıkarılıyor',
+        'plugins' => 'Modüller',
         'plugin_downloading' => 'Modül indiriliyor: :name',
         'plugin_extracting' => 'Modül dosyaları çıkarılıyor: :name',
         'plugin_version_none' => 'Yeni eklenti',
@@ -188,12 +189,12 @@ return [
         'force_label' => 'Güncellemeye zorla',
         'found' => [
             'label' => 'Güncellemeler bulundu!',
-            'help' => 'Sistemi güncelleye tıklayarak güncelleme işlemini başlatabilirsiniz.',
+            'help' => 'Sistemi güncelleye tıklayarak güncelleme işlemini başlatabilirsiniz.'
         ],
         'none' => [
             'label' => 'Güncelleme yok',
-            'help' => 'Yeni güncelleme bulunamadı.',
-        ],
+            'help' => 'Yeni güncelleme bulunamadı.'
+        ]
     ],
     'server' => [
         'connect_error' => 'Sunucuyla bağlantı kurulamadı.',
@@ -201,17 +202,17 @@ return [
         'response_invalid' => 'Sunucudan hatalı cevap geldi.',
         'response_empty' => 'Sunucudan boş cevap geldi.',
         'file_error' => 'Paket teslim edilirken sunucuda hata meydana geldi.',
-        'file_corrupt' => 'Sunucudaki dosya bozulmuş.',
+        'file_corrupt' => 'Sunucudaki dosya bozulmuş.'
     ],
     'behavior' => [
-        'missing_property' => ':class sınıfı :behavior davranışı tarafından kullanılan $:property özelliğini tanımlamalı.',
+        'missing_property' => ':class sınıfı :behavior davranışı tarafından kullanılan $:property özelliğini tanımlamalı.'
     ],
     'config' => [
         'not_found' => ':location için tanımlanan :file adlı ayar dosyası bulunamadı.',
-        'required' => ':location konumunda kullanılan :property ayarı bir değer içermelidir.',
+        'required' => ':location konumunda kullanılan :property ayarı bir değer içermelidir.'
     ],
     'zip' => [
-        'extract_failed' => "':file' adlı çekirdek dosyası dosya paketinden çıkarılamadı.",
+        'extract_failed' => "':file' adlı çekirdek dosyası dosya paketinden çıkarılamadı."
     ],
     'event_log' => [
         'hint' => 'Bu kayıtlar, uygulamada ortaya çıkan potansiyel hataları, istisnaları ve hata ayıklama bilgilerini görüntüler.',
@@ -225,7 +226,7 @@ return [
         'id_label' => 'Olay Numarası',
         'created_at' => 'Tarih & Saat',
         'message' => 'Mesaj',
-        'level' => 'Seviye',
+        'level' => 'Seviye'
     ],
     'request_log' => [
         'hint' => 'Bu günlük dikkat edilmesi gereken tarayıcı isteklerinin bir listesini görüntüler. Örneğin, bir ziyaretçi bulunmayan bir CMS sayfasını açarsa 404 kodu ile bir kayıt oluşturulur.',
@@ -240,33 +241,15 @@ return [
         'count' => 'Sayaç',
         'referer' => 'Referer',
         'url' => 'URL',
-        'status_code' => 'Durum',
+        'status_code' => 'Durum'
     ],
     'permissions' => [
         'name' => 'Sistem',
         'manage_system_settings' => 'Sistem ayarlarını düzenleyebilsin',
         'manage_software_updates' => 'Sistem güncellemelerini yönetebilsin',
         'manage_mail_templates' => 'E-posta şablonları yönetebilsin',
+        'manage_mail_settings' => 'E-posta ayarlarını yönetebilsin',
         'manage_other_administrators' => 'Diğer yöneticileri düzenleyebilsin',
         'view_the_dashboard' => 'Panoyu görüntüleyebilsin'
-    ],
-    'email' => [
-        'menu_label' => 'E-mail Ayarları',
-        'menu_description' => 'E-mail ayarlarını düzenle.',
-        'general' => 'Genel',
-        'method' => 'E-mail Gönderme Yöntemi',
-        'sender_name' => 'Gönderici Adı',
-        'sender_email' => 'Gönderici E-mail Adresi',
-        'smtp' => 'SMTP',
-        'smtp_address' => 'SMTP Adresi',
-        'smtp_authorization' => 'SMTP giriş bilgisi gerekiyor',
-        'smtp_authorization_comment' => 'Eğer kullandığınız SMTP sunucusu şifre ile işlem yapıyorsa burayı işaretleyiniz.',
-        'smtp_username' => 'Kullanıcı Adı',
-        'smtp_password' => 'Şifre',
-        'smtp_port' => 'SMTP Portu',
-        'smtp_ssl' => 'SSL bağlantısı gerekiyor',
-        'sendmail' => 'Sendmail',
-        'sendmail_path' => 'Sendmail Dosya Yolu',
-        'sendmail_path_comment' => 'Sendmail yazılımının sunucudaki yerini belirtiniz.',
     ]
 ];
