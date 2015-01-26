@@ -4,22 +4,22 @@ return [
     // Plugin definitions
     'app' => [
         'name' => 'Mail',
-        'description' => 'Create front-end contact forms that allow to send email messages based on custom templates.',
-        'author' => 'Medanis Bilişim',
+        'description' => 'Oluşturduğunuz taslaklara göre site önyüzünde iletişim formları oluşturmanızı sağlar.',
+        'author' => 'Octo Devel',
         'icon' => 'icon-envelope'
     ],
     'navigation' => [
         'templates' => 'Taslaklar',
         'recipients' => 'Alıcılar',
-        'contact_logs' => 'İletişim Kayıtları',
+        'contact_logs' => 'İletişim Kayıtları'
     ],
     'permissions' => [
         'access_templates' => 'Taslakları Yönet',
         'access_recipients' => 'Alıcıları Yönet',
-        'access_logs' => 'Kayıtları Göster',
+        'access_logs' => 'Kayıtları Göster'
     ],
     'mailTemplates' => [
-        'autoresponse' => 'Kullanıcı mail gönderdiğinde bir yanıt e-postası gönder.',
+        'autoresponse' => 'Kullanıcı mail gönderdiğinde bir yanıt e-postası gönder.'
     ],
 
     // Models Definitions
@@ -29,9 +29,9 @@ return [
             'fields' => [
                 'options' => [
                     'yes' => 'Evet',
-                    'no' => 'Hayır',
-                ],
-            ],
+                    'no' => 'Hayır'
+                ]
+            ]
         ],
         // Template model
         'templates' => [
@@ -40,7 +40,7 @@ return [
                 'slug' => 'Takma ad',
                 'lang' => 'Dil',
                 'created_at' => 'Oluşturulma',
-                'updated_at' => 'Güncellenme',
+                'updated_at' => 'Güncellenme'
             ],
             'fields' => [
                 'label' => [
@@ -56,7 +56,7 @@ return [
                     'recipents' => 'Alıcılar',
                     'recipient_name' => 'Alıcı Adı',
                     'recipient_email' => 'Alıcı Email',
-                    'confirmation_text' => 'Onay Metni',
+                    'confirmation_text' => 'Onay Metni'
                 ],
                 'commentAbove' => [
                     'recipents' => 'Bu mesajı almasını istediğiniz alıcıları seçin'
@@ -71,26 +71,26 @@ return [
                     'recipents' => 'Alıcı yok, ilk alıcıyı oluşturmalısınız!',
                     'recipient_name' => 'alıcı adını girin',
                     'recipient_email' => 'alıcı email girin',
-                    'confirmation_text' => 'Onay metnini girin',
+                    'confirmation_text' => 'Onay metnini girin'
                 ],
                 'tab' => [
                     'edit' => 'Düzenleyici',
                     'manage' => 'Yönetim'
-                ],
-            ],
+                ]
+            ]
         ],
         // Recipient model
         'recipient' => [
             'columns' => [
                 'name' => 'İsim',
-                'email' => 'Email',
+                'email' => 'Email'
             ],
             'fields' => [
                 'label' => [
                     'name' => 'İsim',
-                    'email' => 'Email',
-                ],
-            ],
+                    'email' => 'Email'
+                ]
+            ]
         ],
         // Recipient model
         'log' => [
@@ -98,7 +98,7 @@ return [
                 'template_id' => 'Taslak',
                 'sender_ip' => 'IP',
                 'sent_at' => 'Gönderilme',
-                'sender_agent' => 'Tarayıcı',
+                'sender_agent' => 'Tarayıcı'
             ],
             'fields' => [
                 'label' => [
@@ -106,10 +106,10 @@ return [
                     'sender_agent' => 'Tarayıcı',
                     'sender_ip' => 'IP',
                     'sent_at' => 'Gönderilme',
-                    'data' => 'Gönderilen Veri',
-                ],
-            ],
-        ],
+                    'data' => 'Gönderilen Veri'
+                ]
+            ]
+        ]
     ],
 
     // Controllers Definitions
@@ -117,36 +117,45 @@ return [
         // Default translations for controllers
         'default' => [
             'buttons' => [
-                'new' => 'Yeni Item',
+                'new' => 'Yeni Taslak',
                 'delete' => 'Sil',
                 'duplicate' => 'Çoğalt'
             ],
             'confirm' => [
                 'delete' => 'Silmek istediğinize emin misiniz?',
-                'selected_delete' => 'Tüm seçilenleri silmek istediğinize emin misiniz?',
+                'selected_delete' => 'Tüm seçilenleri silmek istediğinize emin misiniz?'
             ],
             'return_to_items' => 'Listeye geri dön',
-            'data_window_close_confirm' => 'Kaydedilmedi.',
+            'data_window_close_confirm' => 'Kaydedilmedi.'
         ],
         // Templates controller
         'templates' => [
             'config_form' => ['name' => 'Email Taslakları'],
             'config_list' => ['title' => 'Email Taslaklarını Yönet'],
             'preview' => ['menu_label' => 'Email taslakları'],
+            'functions' => [
+                'index_onDelete' => [
+                    'success' => 'Seçilenler başarılı şekilde silindi.'
+                ],
+                'index_onDuplicate' => [
+                    'no_data_error' => 'Bazı nesneler bulunamadı.',
+                    'success' => 'Seçilenler çoğaltıldı.'
+                ]
+            ]
         ],
         // recipients controller
         'recipients' => [
             'title' => 'Mail Alıcıları',
             '_list_toolbar' => ['new' => 'Yeni Alıcı'],
             'config_form' => ['name' => 'Email Alıcısı'],
-            'config_list' => ['title' => 'Alıcıları Yönet'],
+            'config_list' => ['title' => 'Alıcıları Yönet']
         ],
         // logs controller
         'logs' => [
             'title' => 'İletişim Kayıtları',
             'config_form' => ['name' => 'İletişim Günlüğü'],
-            'config_list' => ['title' => 'İletişim Kayıtlarını Göster'],
-        ],
+            'config_list' => ['title' => 'İletişim Kayıtlarını Göster']
+        ]
     ],
 
     // Components Definitions
@@ -156,44 +165,44 @@ return [
             'description' => 'İletişim formunun eklendiği heryerde mail taslağını gösterir.',
             'default' => [
                 'options' => [
-                    'none' => '- hiçbiri -',
-                ],
+                    'none' => '- hiçbiri -'
+                ]
             ],
             'properties' => [
                 'redirectURL' => [
                     'title' => 'Yönlendir',
-                    'description' => 'Mail gönderildikten sonra adrese yönlendir.',
+                    'description' => 'Mail gönderildikten sonra adrese yönlendir.'
                 ],
                 'templateName' => [
                     'title' => 'Mail taslağı',
-                    'description' => 'Mail taslağını seçin.',
+                    'description' => 'Mail taslağını seçin.'
                 ],
                 'responseTemplate' => [
                     'title' => 'Yanıt taslağı',
-                    'description' => 'Yanıt taslağını seçin.',
+                    'description' => 'Yanıt taslağını seçin.'
                 ],
                 'bodyField' => [
                     'title' => 'Mesaj gövdesi adı',
-                    'description' => 'Kullanıcının mesajını temsil eden form alanı. Gönderilmeden önce satırlara nl2br uygulanacak.',
+                    'description' => 'Kullanıcının mesajını temsil eden form alanı. Gönderilmeden önce satırlara nl2br uygulanacak.'
                 ],
                 'responseFieldName' => [
                     'title' => 'Yanıt alanı adı',
-                    'description' => 'Otomatik yanıt yapılacak kişinin ismini temsil eden form alanı.',
+                    'description' => 'Otomatik yanıt yapılacak kişinin ismini temsil eden form alanı.'
                 ],
                 'responseFieldEmail' => [
                     'title' => 'Yanıt alanı email',
-                    'description' => 'Otomatik yanıt yapılacak kişinin emailini temsil eden form alanı.',
-                ],
+                    'description' => 'Otomatik yanıt yapılacak kişinin emailini temsil eden form alanı.'
+                ]
             ],
             'functions' => [
                 'onOctoMailSent' => [
                     'exceptions' => [
                         'invalid_template' => 'Beklenmedik bir hata oluştu. Tema takma adı geçersiz.',
                         'invalid_attributes' => 'Beklenmedik bir hata oluştu. Nesne olmayan bir özelliği almaya çalışırken hata oluştu.',
-                        'invalid_message_field' => '"message" alan ismi olarak kullanılamaz. Lütfen alanın ismini düzenleyin.',
-                    ],
-                ],
-            ],
-        ],
-    ],
+                        'invalid_message_field' => '"message" alan ismi olarak kullanılamaz. Lütfen alanın ismini düzenleyin.'
+                    ]
+                ]
+            ]
+        ]
+    ]
 ];

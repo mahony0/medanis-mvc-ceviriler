@@ -51,6 +51,7 @@ return [
     'categories' => [
         'list_title' => 'Kategorileri yönet',
         'new_category' => 'Yeni kategori',
+        'uncategorized' => 'Kategorisiz'
     ],
     'category' => [
         'name' => 'İsim',

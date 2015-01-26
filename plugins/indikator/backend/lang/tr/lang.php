@@ -9,6 +9,7 @@ return [
     'settings' => [
         'sidebar_description' => 'Sol kısayol bloğunda açıklamaları gizle.',
         'focus_searchfield' => 'Otomatik olarak arama alanına odaklan.',
+        'virtual_keyboard' => 'Ayarlar kısmında sanal klavyeyi aktifleştir.',
         'comment' => 'Sadece Ayarlar sayfalarında çalışır.'
     ],
     'widgets' => [

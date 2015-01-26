@@ -156,4 +156,10 @@ return [
         'redirect_title' => 'Yönlendiriliyor',
         'redirect_desc' => 'Giriş başarısız olduğunda yönlendirilecek sayfasının adı.',
     ],
+    'mail' => [
+        'activate' => 'Yeni Kullanıcıya gönderilecek aktivasyon mail taslağı',
+        'welcome' => 'Kullanıcı hesabını aktifleştirdiğinde gönderilecek Hoşgeldiniz mail taslağı',
+        'restore' => 'Önyüz kullanıcıları için şifre sıfırlama bilgilerini içeren mail taslağı',
+        'new_user' => 'Yeni bir kullanıcı kayıt olduğunda Yöneticilere gönderilecek mail taslağı',
+    ]
 ];
